@@ -1,0 +1,25 @@
+{
+    "name" : "wead-chat",
+    "description" : "Exemplo de criação de um chat com NodeJS e HTML5.",
+    "homepage" : "http://nodejs.wead.com.br/chat-html5-canvas/",
+    "keywords" : ["html5", "canvas", "chat", "wead"],
+    "author" : "Adriano Maciel <adriano@wead.com.br>",
+    "contributors" : [],
+    "mainterners" : [
+        "Adriano Maciel <adriano@wead.com.br>"
+    ],
+    "dependencies" : {
+        "express": ">=4.4.5",
+        "socket.io": "1.0.6",
+        "crypto": "0.0.3",
+        "ejs": "1.0.0"
+    },
+    "repository" : {"type": "git", "url": "https://github.com/adrianowead/nodejs-chat.git"},
+    "main" : "wead_chat_server.js",
+    "version" : "1.0.0",
+    "readmeFile" : "README.md",
+    "license" : "MIT",
+    "engines" : {
+        "node" : ">=0.10.0"
+    }
+}
