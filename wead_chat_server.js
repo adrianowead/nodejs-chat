@@ -27,6 +27,7 @@ app.get("/", function(req, res) {
     });
 });
 
+//servidor HTTP "escutando" porta 5502
 server.listen(5502, function(){
     console.log("Express e Socket.IO no ar.");
 });
